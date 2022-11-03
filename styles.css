@@ -1,18 +1,32 @@
 * {
     font-family: sans-serif;
     text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 150, 51);
 }
 
+h1 {
+    color: white;
+    background-color: orangered;
+}
+
+h2 {
+    font-size: 45px;
+    background-color: rgba(255, 68, 0, 0.842);
+    color: rgb(255, 197, 176);
+}
+
+h3 {
+    font-size: 30px;
+}
 
 img {
     height: 300px;
     width: auto;
 }
 
-ol, ul
-{
-   display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
+li, p {
+    margin-top: 10px;
+    font-size: 20px;
 }
-
